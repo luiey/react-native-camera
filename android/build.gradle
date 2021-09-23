@@ -10,7 +10,7 @@ buildscript {
     repositories {
       google()
       mavenCentral()
-      jcenter()
+      //jcenter()
     }
 
     dependencies {
@@ -56,7 +56,7 @@ android {
 
 repositories {
   google()
-  jcenter()
+  //jcenter()
   mavenCentral()
   maven { url "https://jitpack.io" }
   maven {
